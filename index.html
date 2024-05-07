@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uma página inicial para loja de games">
+    <title>Game Shop - A sua loja de games</title>
+
+
+    <link rel="shortcut icon" href="./src/img/joystick.png">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <!-- gerando um bloco para todo os elementos do cabeçalho -->
+        <div class="container">
+            <h1>Game Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre a Loja</a></li>
+                    <li><a href="#contatos">Contato</a></li>
+                    <li></li>
+                </ul>
+            </nav>
+    </div>
+    </header>
+
+    <section class="com-texto" id="sobre">
+        <div class="container">
+            <img class="imagem-frente" src="./src/img/loja.jpg" alt="loja de games">
+            <div>
+                <h2>Sobre a loja</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi temporibus recusandae, corporis aperiam, molestias aspernatur eaque maxime est cumque, dolor alias voluptas totam quibusdam ipsam pariatur obcaecati id officiis sed.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea quam aliquam aut nam sapiente quaerat vero quas dolorem at illo maiores, itaque corporis repellendus nobis optio temporibus repellat excepturi inventore?</p>
+                <ul class="brands-list">
+                    <li><img src="./src/img/nintendo.png" alt="nintendo"></li>
+                    <li><img src="./src/img/xbox.png" alt="xbox"></li>
+                    <li><img src="./src/img/playstation.png" alt="playstation"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="com-texto" id="contatos">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="modos-de-contato">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu email" required>
+                        <input type="tel" placeholder="Seu telefone (opicional)" >
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="redes-socais">
+                        <li>
+                            <a href="#" title="Siga-nos no instagram">
+                                <img src="./src/img/instagram.png" alt="logo do instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="siga-nos no facebook">
+                                <img src="./src/img/facebook.png" alt="logo do facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="acompanhe-nos no youtube">
+                                <img src="./src/img/youtube.png" alt="logo do youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>
+                        Rua pacífico pereira, 1 - Jardim Sulacap - Rio de Janeiro - RJ
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Games Shop - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
